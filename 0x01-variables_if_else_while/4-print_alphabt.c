@@ -1,15 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
- * main - entry point
+ * main - Entry point
  *
- * Return: alway returns 0
-*/
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int a = 0;
+	char a = 'a';
 
-	for (; a < 10 ; a++)
-		printf("%d", a);
+	while (a <= 'z')
+	{
+		if (a != 'e' && a != 'q')
+		{
+			putchar(a);
+		}
+		a++;
+	}
 	putchar('\n');
 	return (0);
 }
