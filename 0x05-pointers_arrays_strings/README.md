@@ -1,1 +1,1 @@
-pointers and array task
+pointerstask
